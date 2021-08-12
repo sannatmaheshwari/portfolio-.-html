@@ -1,0 +1,89 @@
+h1{
+    color:#ff8080;
+    text-align: center;
+    margin-left:0px;
+   
+}
+.intro p{
+    color:lime
+}
+.games p{
+    color:#000000;
+}
+
+.header{
+    background-color:#80cdff;
+    display:flex;
+    justify-content:space-between;
+    font-size:30px;
+    
+}
+.header a{
+    font-size:15px;
+    padding:15px;
+}
+.intro{
+    text-align: center;
+    background-color: #ff8080;
+    font-size:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.games{
+    background-color:rgb(219, 219, 146);
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+.icons{
+    background-color: midnightblue;  
+    display:flex;
+    justify-content: flex-start;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+.icon{
+    position:relative;
+    padding-left:25px;
+}
+
+a:link{
+    color:#ffffff;
+}
+a:visited{
+    color:#46df41
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{
+ opacity:1;
+}
+.item:hover img{
+    opacity:0.3;
+}
+.item1{
+    position:relative;
+    padding-top:70px;
+}
+.item1 p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item1:hover p{
+ opacity:1;
+}
+.item1:hover img{
+    opacity:0.3;
+}
